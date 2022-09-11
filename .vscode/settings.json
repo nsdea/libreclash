@@ -7,7 +7,10 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "**/.css": true,
-        "**/.css.map": true
+        "**/.css.map": true,
+        ".vscode": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        ".vscode"
+    ]
 }
