@@ -1,0 +1,1 @@
+new Audio('/static/sfx/background_music_3m.wav').play();

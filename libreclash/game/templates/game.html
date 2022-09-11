@@ -1,12 +1,35 @@
-{% with title="Home" %}
+{% with title="Game" %}
     {% include "components/top.html" %}
 {% endwith %}
 
-{% with page="home" %}
-    {% include "components/sidebar.html" %}
-{% endwith %}
+<link rel="stylesheet" href="/static/stylesheets/clash.css">
 
-<main class="ingame">
-</main>
+<img class="vignette" src="static/art/vignette.png">
+
+<div id="scroll-container">
+    <main class="ingame tiles" id="main-game">
+        {% for row in tiles %}
+            {% for tile in row %}
+                <img class="tile {{ tile['class'] }}" src="{{ tile['src'] }}" title="{{ tile['description'] }}">
+            {% endfor %}
+            <br>
+        {% endfor %}
+    </main>
+</div>
+
+<div class="tile-overlay" id="tile-overlay">
+    <h1 id="current-tile"></h1>
+</div>
+
+<script src="/static/scripts/audio.js"></script>
+<script src="/static/scripts/tile.js"></script>
+<script src="/static/scripts/scrollzoom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(document).ready(function (){
+        var scroll_zoom = new ScrollZoom($('#scroll-container'), 5, 0.5)
+    })
+</script>
 
 {% include "components/end.html" %}

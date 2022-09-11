@@ -1,0 +1,57 @@
+body, html, main, *
+    overflow: hidden
+
+main.ingame
+    cursor: pointer
+
+    margin: 0
+    height: 100vh
+    width: 100vw
+
+    transition: transform .2s
+    background-image: url('/static/art/pattern/pattern_1.png')
+    image-rendering: pixelated
+
+    padding: 2rem
+
+    &, *
+        transform: scale(3)
+        z-index: 10
+
+.tiles
+    .tile
+        image-rendering: pixelated
+
+        filter: drop-shadow(0 0 3px black) drop-shadow(0 0 6px black)
+
+        &:hover
+            cursor: pointer
+
+        &.wall
+            margin-right: 12px
+            margin-top: 12px
+
+        &.house
+            margin-top: -12px
+
+.vignette
+    width: 100vw
+    height: 120vh
+    z-index: 1
+    position: absolute
+    pointer-events: none
+
+.tile-overlay
+    opacity: 0
+    position: absolute
+
+    left: 1rem
+    bottom: 2rem
+
+    font-size: 1.5rem
+
+    filter: drop-shadow(0 0 6px black) drop-shadow(0 0 12px black) drop-shadow(0 0 24px black)
+
+*::selection
+    background: none !important
+

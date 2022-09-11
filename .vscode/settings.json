@@ -22,7 +22,10 @@
         "libreclash/static/stylesheets/vars.css": true,
         "libreclash/static/assets/lc-icon-bg.png": true,
         "libreclash/game/__pycache__": true,
-        "libreclash/home/__pycache__": true
+        "libreclash/home/__pycache__": true,
+        "libreclash/static/stylesheets/clash.css": true,
+        "libreclash/static/stylesheets/clash.css.map": true,
+        "libreclash/static/art/wall/wall_1 copy.png": true
     },
     "hide-files.files": [
         ".vscode",
@@ -39,6 +42,9 @@
         "libreclash/static/stylesheets/vars.css",
         "libreclash/static/assets/lc-icon-bg.png",
         "libreclash/game/__pycache__",
-        "libreclash/home/__pycache__"
+        "libreclash/home/__pycache__",
+        "libreclash/static/stylesheets/clash.css",
+        "libreclash/static/stylesheets/clash.css.map",
+        "libreclash/static/art/wall/wall_1 copy.png"
     ]
 }

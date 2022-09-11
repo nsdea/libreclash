@@ -1,6 +1,13 @@
 @import url("https://rsms.me/inter/inter.css");
+@font-face {
+  font-family: "8bit";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/static/fonts/8bitOperatorPlus8-Regular.ttf");
+}
 html {
-  font-family: "Inter", sans-serif !important;
+  font-family: "8bit", sans-serif !important;
 }
 
 .hero {
