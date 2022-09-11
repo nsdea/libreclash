@@ -1,0 +1,84 @@
+{% with title="Login" %}
+    {% include "components/top.html" %}
+{% endwith %}
+<div class="nav-icon" onclick="openPopUp()">
+    <i class="bi bi-grid-3x3-gap-fill"></i>
+</div>
+<div id="navPopUp" class="overlay">
+    <a class="close-btn" onclick="closePopUp()">&times;</a>
+    <div class="overlay-content">
+        <a class="overlay-title" href="/">
+            <img src="/static/assets/icon.png">
+            <span >LibreClash <mark class="title-tag">BETA</mark></span>
+        </a>
+        
+        <a class="nav-item" target="_blank" href="https://github.com/nsde/libreclash">Open Source</a>
+        <a class="nav-item" target="_blank" href="https://github.com/nsde/libreclash#faq">Tips & Info</a>
+        <a class="nav-item" target="_blank" href="https://onlix.me">by ONLIX</a>
+        <hr>
+        <a href="#login" onclick="closePopUp()">
+            <button>Get started</button>
+        </a>
+        <a href="/demo">
+            <button class="outlined">Demo</button>
+        </a>
+    </div>
+</div>
+
+<div class="hero" id="hero">
+    <div class="nav-top">
+        <a class="left" href="/">
+            <img src="/static/assets/icon.png">
+            <span >LibreClash <mark class="title-tag">BETA</mark></span>
+        </a>
+            <a class="nav-item" target="_blank" href="https://github.com/nsde/libreclash">Open Source</a>
+            <a class="nav-item" target="_blank" href="https://github.com/nsde/libreclash#faq">Tips & Info</a>
+            <a class="nav-item" target="_blank" href="https://onlix.me">by ONLIX</a>
+            <a href="#login">
+                <button>Get started</button>
+            </a>
+            <a href="/demo">
+                <button class="outlined">Demo</button>
+            </a>
+    </div>
+    <a href="#play">
+        <button class="chevron chevron-pulse">
+            <i class="bi bi-chevron-down"></i>
+        </button>
+    </a>
+    <br>
+    <h1 class="title">The Clash of Clans alternative for your web browser</h1>
+    <h2>Free and open source. Without "Pay2Win".</h2>
+</div>
+
+<main class="dark landing" id="login">
+    <img class="bg-pattern left" src="/static/assets/bg-pattern-left.png">
+    <img class="bg-pattern right" src="/static/assets/bg-pattern-right.png">
+</main>
+
+<footer>
+    <span class="footer-item">
+        <a target="_blank" href="https://onlix.me/legal#tos">
+            Terms of Service</a>
+        <i class="ext bi bi-box-arrow-up-right" class="ext"></i>
+    </span>
+    <span class="footer-item">
+        <a target="_blank" href="https://onlix.me/legal#privacy">
+            Privacy Policy</a>
+        <i class="ext bi bi-box-arrow-up-right"></i>
+    </span>
+</footer>
+<script>
+    var navOverlayStyle = document.getElementById("navPopUp").style;
+
+    // PopUp
+    function openPopUp() {
+        navOverlayStyle.width = "100%";
+        navOverlayStyle.opacity = "1";
+    }
+    function closePopUp() {
+        navOverlayStyle.width = "0%";
+        navOverlayStyle.opacity = "0";
+    }
+</script>
+{% include "components/end.html" %}

@@ -1,0 +1,84 @@
+.fg-red {
+  color: rgba(141, 32, 32, 0.8588235294) !important;
+}
+
+.fg-yellow {
+  color: rgba(250, 199, 14, 0.4784313725) !important;
+}
+
+.fg-green {
+  color: rgba(21, 135, 82, 0.7529411765) !important;
+}
+
+.fg-blue {
+  color: rgba(30, 51, 136, 0.8823529412) !important;
+}
+
+.fg-accent {
+  color: #f9efa3 !important;
+}
+
+.bg-red {
+  background: rgba(141, 32, 32, 0.8588235294) !important;
+}
+
+.bg-yellow {
+  background: rgba(250, 199, 14, 0.4784313725) !important;
+}
+
+.bg-green {
+  background: rgba(21, 135, 82, 0.7529411765) !important;
+}
+
+.bg-blue {
+  background: rgba(30, 51, 136, 0.8823529412) !important;
+}
+
+.gd-accent {
+  background: linear-gradient(90deg, #ff9b01 0%, #ff6a3b 48%, #ff3877 100%) !important;
+}
+
+.gd-special {
+  background: linear-gradient(45deg, rgba(134, 53, 255, 0.8117647059) 0%, rgba(41, 84, 255, 0.7843137255) 48%, rgba(97, 191, 253, 0.5725490196) 100%) !important;
+}
+
+.gd-green {
+  background: linear-gradient(45deg, rgba(17, 123, 42, 0.9764705882) 0%, rgba(37, 151, 62, 0.7215686275) 48%, rgba(54, 155, 36, 0.7215686275) 100%) !important;
+}
+
+.gd-teal {
+  background: linear-gradient(45deg, rgba(17, 123, 103, 0.9764705882) 0%, rgba(37, 151, 134, 0.7215686275) 48%, rgba(36, 155, 137, 0.7215686275) 100%) !important;
+}
+
+.gd-yellow {
+  background: linear-gradient(45deg, rgba(123, 95, 17, 0.9764705882) 0%, #8c5e13 48%, rgba(185, 125, 14, 0.9294117647) 100%) !important;
+}
+
+.gd-red {
+  background: linear-gradient(45deg, rgba(123, 31, 17, 0.9764705882) 0%, #8c1d13 48%, rgba(185, 40, 14, 0.9294117647) 100%) !important;
+}
+
+.gd-light {
+  background: linear-gradient(45deg, rgba(126, 118, 56, 0.9764705882) 0%, rgba(175, 171, 66, 0.8823529412) 48%, rgba(155, 141, 36, 0.9294117647) 100%) !important;
+}
+
+.gd-dark {
+  background: linear-gradient(45deg, rgba(44, 37, 58, 0.9764705882) 0%, #1f1b3a 48%, rgba(28, 24, 57, 0.9294117647) 100%) !important;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transition: position 2s, visibility 2s;
+}
+
+*::-moz-selection {
+  color: #ffffff !important;
+  background-color: #ff9c1b !important;
+}
+
+*::selection {
+  color: #ffffff !important;
+  background-color: #ff9c1b !important;
+}/*# sourceMappingURL=helpers.css.map */

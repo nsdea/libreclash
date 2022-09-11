@@ -8,9 +8,37 @@
         "**/Thumbs.db": true,
         "**/.css": true,
         "**/.css.map": true,
-        ".vscode": true
+        ".vscode": true,
+        "libreclash/__pycache__": true,
+        "libreclash/static/stylesheets/base.css": true,
+        "libreclash/static/stylesheets/base.css.map": true,
+        "libreclash/static/stylesheets/helpers.css": true,
+        "libreclash/static/stylesheets/helpers.css.map": true,
+        "libreclash/static/stylesheets/home.css": true,
+        "libreclash/static/stylesheets/home.css.map": true,
+        "libreclash/static/stylesheets/utils.css": true,
+        "libreclash/static/stylesheets/utils.css.map": true,
+        "libreclash/static/stylesheets/vars.css.map": true,
+        "libreclash/static/stylesheets/vars.css": true,
+        "libreclash/static/assets/lc-icon-bg.png": true,
+        "libreclash/game/__pycache__": true,
+        "libreclash/home/__pycache__": true
     },
     "hide-files.files": [
-        ".vscode"
+        ".vscode",
+        "libreclash/__pycache__",
+        "libreclash/static/stylesheets/base.css",
+        "libreclash/static/stylesheets/base.css.map",
+        "libreclash/static/stylesheets/helpers.css",
+        "libreclash/static/stylesheets/helpers.css.map",
+        "libreclash/static/stylesheets/home.css",
+        "libreclash/static/stylesheets/home.css.map",
+        "libreclash/static/stylesheets/utils.css",
+        "libreclash/static/stylesheets/utils.css.map",
+        "libreclash/static/stylesheets/vars.css.map",
+        "libreclash/static/stylesheets/vars.css",
+        "libreclash/static/assets/lc-icon-bg.png",
+        "libreclash/game/__pycache__",
+        "libreclash/home/__pycache__"
     ]
 }
