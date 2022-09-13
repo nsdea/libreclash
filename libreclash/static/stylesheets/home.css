@@ -6,8 +6,8 @@
   font-display: swap;
   src: url("/static/fonts/8bitOperatorPlus8-Regular.ttf");
 }
-html {
-  font-family: "8bit", sans-serif !important;
+* {
+  font-family: "8bit", sans-serif;
 }
 
 .hero {
@@ -56,10 +56,8 @@ html {
   top: 1rem;
   margin-left: 1rem;
   padding: 7px 0.8rem 7px 0.8rem;
-  border-radius: 0.5rem !important;
   color: #ffffff;
   font-weight: bold;
-  border-radius: 10px;
   background: #ff9c1b;
 }
 .hero .nav-top a button:hover {
@@ -143,7 +141,6 @@ footer .footer-item {
 }
 .gradient-border-wrap {
   padding: 2px;
-  border-radius: 10px;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -193,7 +190,6 @@ footer .footer-item {
   padding: 2rem;
   width: 800px;
   margin: 0 auto;
-  border-radius: 10px;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   background-color: rgba(90, 64, 31, 0.5882352941);

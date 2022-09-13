@@ -56,7 +56,6 @@ a:hover {
 .sidebar .title.active {
   padding: 0.5rem;
   background: #6e372b;
-  border-radius: 5px;
   box-shadow: 0 0 10px #6e372b;
 }
 .sidebar .title h1 {
@@ -75,7 +74,6 @@ a:hover {
   text-decoration: none;
 }
 .sidebar .item {
-  border-radius: 10px;
   padding: 0.8rem;
   opacity: 0.7;
 }
@@ -217,7 +215,6 @@ code {
   width: -moz-fit-content;
   width: fit-content;
   padding: 1rem;
-  border-radius: 10px;
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4235294118);
 }
 .alert a {
@@ -247,7 +244,6 @@ code {
   height: 5rem;
   color: #ffffff;
   background: linear-gradient(90deg, #ff9b01 0%, #ff6a3b 48%, #ff3877 100%);
-  border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4235294118);
 }
 .panels .panel i {
@@ -274,7 +270,6 @@ mark.dc {
   padding-left: 3px;
   padding-right: 3px;
   background-color: rgba(255, 255, 255, 0.0941176471);
-  border-radius: 5px;
 }
 
 input, button {
@@ -284,7 +279,6 @@ input, button {
   padding: 0.5rem;
   margin-top: 0.5rem;
   background: rgba(67, 61, 134, 0.1647058824);
-  border-radius: 10px;
 }
 
 div.inline {
@@ -298,7 +292,6 @@ fieldset {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  border-radius: 10px;
   margin-bottom: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.137254902);
 }
@@ -335,7 +328,6 @@ button:active {
 .profile .show-on-hover {
   padding: 1rem;
   width: 100px;
-  border-radius: 10px;
   transform: translate(20px, -30px);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4235294118), 0 0 10px rgba(0, 0, 0, 0.4235294118);
 }
@@ -363,7 +355,6 @@ select {
   color: #ffffff;
   border: none;
   font-size: large;
-  border-radius: 5px;
   padding: 5px;
   background-color: rgba(67, 61, 134, 0.1647058824);
 }
@@ -405,7 +396,6 @@ input[type=checkbox]:not(:checked) {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 10px;
   background: #5f2a27;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -421,9 +411,6 @@ input[type=checkbox]:not(:checked) {
   transform: scale(1.05);
   filter: brightness(1.1);
 }
-.gallery .item img {
-  border-radius: 10px;
-}
 .gallery .item h3 {
   margin-top: 0;
   padding: 0.5rem;
@@ -432,7 +419,6 @@ input[type=checkbox]:not(:checked) {
 .gallery .item h3 mark {
   color: #ffffff;
   padding: 5px;
-  border-radius: 10px;
   background: linear-gradient(90deg, #ff9b01 0%, #ff6a3b 48%, #ff3877 100%);
 }
 .gallery .item.creator {

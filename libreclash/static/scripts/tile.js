@@ -1,7 +1,7 @@
 const tiles = document.querySelectorAll('.tile');
 const overlay = document.querySelector('#tile-overlay');
 const tile_name = document.querySelector('#current-tile');
-const background = document.querySelectorAll('#current-tile');
+const background = document.querySelector('body');
 
 function unselect() {
     for (const tile of tiles) {
@@ -15,7 +15,7 @@ for (const tile of tiles) {
         return false;
     };
 
-    tile.onclick = function() {
+    tile.onmousedown = function() {
         unselect();
 
         tile_name.innerText = tile.title;
@@ -25,7 +25,9 @@ for (const tile of tiles) {
     };
 }
 
-background.onclick = function() {
-    alert(1);
-    unselect();
+// Unselect if background is clicked
+background.onclick = function(e) {
+    if (e.target.parentNode.id == 'scroll-container') {
+        unselect();
+    }
 }
